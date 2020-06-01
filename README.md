@@ -257,24 +257,25 @@ _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferen
 _4. Dirigirse a la sección de clusters._
 
 ---
-![111111111111](https://user-images.githubusercontent.com/60987042/77703986-1ebb9000-6f8a-11ea-8593-79b70b9e85b7.png)
----
+<p align="center">
+<img width="668" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
+</p>
 
-_5. Ingresar al cluster que lleva por nombre openshift.311._
+_5. Ingresar al cluster que lleva por nombre openshift-4.3_
 
 _6. Ingrese a la sección de openshift web console._
 
-![22222](https://user-images.githubusercontent.com/60987042/77704788-e0bf6b80-6f8b-11ea-95d4-0cd24368b721.png)
+<p align="center">
+<img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
+</p>
 
-_7. Ahora debemos seleccionar el proyecto en el que queremos trabajar o creamos uno._
+_8. Dar clic en la sección **Add** y luego en la sección ***Container Image*._
 
-![7777](https://user-images.githubusercontent.com/60987042/77706550-b3c18780-6f90-11ea-803e-4e74478cee69.png)
+<p align="center">
+<img width="668" alt="contai" src="https://user-images.githubusercontent.com/60987042/83419932-7e4f7500-a3eb-11ea-8a3a-1a1e2a652adc.PNG">
+</p>
 
-_8. Dar clic en la sección **Add do Project** y luego en la sección ***Deploy Image*._
-
-![888](https://user-images.githubusercontent.com/60987042/77706608-e1a6cc00-6f90-11ea-97fe-bc39d4f4f87c.png)
-
-_9. Al dar clic en Deploy Image se abre una ventana en la cual debemos seleccionar el campo **Image Name** y llenar el campo con la ruta fuente de la imagen docker, y dar enter._
+_9. Al dar clic en Container Image se abre una ventana en la cual debemos seleccionar el campo **Image Name** y llenar el campo con la ruta fuente de la imagen docker, y dar enter._
 
 ![101010](https://user-images.githubusercontent.com/60987042/77706930-bbcdf700-6f91-11ea-8442-26569c617234.png)
 
