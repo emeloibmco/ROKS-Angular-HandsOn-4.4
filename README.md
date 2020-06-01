@@ -33,8 +33,9 @@ https://cloud.ibm.com/
 _•	Diríjase al resource list._
 _Primero debe dar clic en el navigation menu y luego donde dice Resource list, como se puede ver en la siguiente imagen:_
 
+<p align="center">
 <img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
-
+</p>
 
 _•	Diríjase a la sección de clústers y dar clic en el que se desea acceder._
 
@@ -44,8 +45,9 @@ _•	Se da clic en el botón OpenShift web console._
 
 _•	Ahora en la parte superior derecha se da clic sobre el ID del correo con el que ingresamos y luego en la sección que dice Copy Login Command._
 
+<p align="center">
 <img width="144" alt="1" src="https://user-images.githubusercontent.com/60987042/76917049-53479180-6890-11ea-91a1-b2c2c9213729.PNG">
-
+</p>
 _•	Y por último volvemos a la terminal que se estaba utilizando pegamos y damos enter._
 
 ### Cree un nuevo proyecto en Open Shift para desplegar las aplicaciones 📦
@@ -85,9 +87,11 @@ _7.	Para desplegar la aplicación en OpenShift es necesario escribir el siguient
 npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --imageTag=10.x --build.env OUTPUT_DIR=dist/angular-web-app --expose
 ```
 _El resultado de este comando va a ser una respuesta de este tipo, que nos indica que 
-la aplicación se desplego correctamente._
+la aplicación se desplego correctamente.
 
+<p align="center">
 <img width="865" alt="2" src="https://user-images.githubusercontent.com/60987042/76918560-9441a500-6894-11ea-954f-62c8076b8903.PNG">
+</p>
 
 _8.	Para poder acceder al la URL de la aplicación y realizar la verificación de la misma debemos:_
 
@@ -136,11 +140,15 @@ npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --image
 ```
 _13. Para confirmar que la aplicación ha sido desplegada busque la aplicación en el proyecto creado en la consola Web de OpenShift, y seleccione el link con el enlace a la aplicación.
 
+<p align="center">
 <img width="515" alt="listas" src="https://user-images.githubusercontent.com/60987042/83415347-91ab1200-a3e4-11ea-9df1-90a6ef1e608a.PNG">
+ </p>
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
+<p align="center">
 <img width="681" alt="lis" src="https://user-images.githubusercontent.com/60987042/83415439-adaeb380-a3e4-11ea-8d5c-bf189f652fc1.PNG">
+</p>
 
 ## Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦
 
@@ -154,12 +162,15 @@ _2. Realice el login con sus credenciales de ingreso._
 
 ---
 ![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
+  
 ---
 
 _3. Dirijase al resource list._
 
 ---
+<p align="center">
 <img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+</p>
 ---
 
 _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta:**1699257_......**_
