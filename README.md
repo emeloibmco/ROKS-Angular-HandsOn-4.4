@@ -101,13 +101,13 @@ _•Dirigirse al resource list._
 
 _•Dirigirse a la sección de clusters._
 
-_•Ingresar al cluster que lleva por nombre openshift.311._
+_•Ingresar al cluster que lleva por nombre openshift-4.2_
 
 _•Ingrese a la sección de openshift web console._
 
 _•Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego._
 
-![11](https://user-images.githubusercontent.com/60987042/77017977-f9a39d80-6949-11ea-8b26-4b301e9490f2.png)
+![image](https://user-images.githubusercontent.com/44415995/83428752-9c6fa200-a3f8-11ea-9695-9b9740350b97.png)
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
