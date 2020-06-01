@@ -134,7 +134,7 @@ _12.	Para desplegar la aplicación en OpenShift es necesario escribir el siguien
 ```
 npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --imageTag=10.x --build.env OUTPUT_DIR=dist/angular-web-app --expose
 ```
-_13. Para confirmar que la aplicación ha sido desplegada busque la aplicación en el proyecto creado en la consola Web d Open Shift, y seleccione el link con el enlace a la aplicación.
+_13. Para confirmar que la aplicación ha sido desplegada busque la aplicación en el proyecto creado en la consola Web de OpenShift, y seleccione el link con el enlace a la aplicación.
 
 <img width="789" alt="3" src="https://user-images.githubusercontent.com/60987042/76919117-f222bc80-6895-11ea-835e-cb689f2b61bb.PNG">
 
