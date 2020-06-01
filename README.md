@@ -203,7 +203,7 @@ _8. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccion
 <p align="center">
 <img width="668" alt="node" src="https://user-images.githubusercontent.com/60987042/83418103-a9849500-a3e8-11ea-8e26-d2d9b549d600.PNG">
 </p>
----
+
 _9. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
 
 <p align="center">
