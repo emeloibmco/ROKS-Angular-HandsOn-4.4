@@ -136,13 +136,11 @@ npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --image
 ```
 _13. Para confirmar que la aplicación ha sido desplegada busque la aplicación en el proyecto creado en la consola Web de OpenShift, y seleccione el link con el enlace a la aplicación.
 
-<img width="789" alt="3" src="https://user-images.githubusercontent.com/60987042/76919117-f222bc80-6895-11ea-835e-cb689f2b61bb.PNG">
-
+<img width="515" alt="listas" src="https://user-images.githubusercontent.com/60987042/83415347-91ab1200-a3e4-11ea-9df1-90a6ef1e608a.PNG">
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
-<img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
-
+<img width="681" alt="lis" src="https://user-images.githubusercontent.com/60987042/83415439-adaeb380-a3e4-11ea-8d5c-bf189f652fc1.PNG">
 
 ## Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦
 
