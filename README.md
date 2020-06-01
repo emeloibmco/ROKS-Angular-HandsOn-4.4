@@ -226,10 +226,10 @@ _10. Para ver el link de despliegue se debe dar clic en "Continue to the project
 
 ---
 
-_11. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
+_11. Una vez terminado el proceso de despliegue puede dirigirse a Routes, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
 
 
-![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
+<img width="894" alt="nod" src="https://user-images.githubusercontent.com/60987042/83419230-5d3a5480-a3ea-11ea-86fd-7cdf9bf92fe4.PNG">
 
 
 ## Despliegue de una imagen Docker en un contenedor de Opeshift 📦
