@@ -178,22 +178,33 @@ _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferen
 _4. Dirigirse a la sección de clusters._
 
 ---
-![111111111111](https://user-images.githubusercontent.com/60987042/77703986-1ebb9000-6f8a-11ea-8593-79b70b9e85b7.png)
+<p align="center">
+<img width="473" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
+</p>
 ---
 
-_5. Ingresar al cluster que lleva por nombre openshift.311._
+_5. Ingresar al cluster que lleva por nombre openshift-4.3_
 
 _6. Ingrese a la sección de openshift web console._
 
-![22222](https://user-images.githubusercontent.com/60987042/77704788-e0bf6b80-6f8b-11ea-95d4-0cd24368b721.png)
+<p align="center">
+<img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
+</p>
 
-_7. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js_
+_7. Ingrese a la sección add y luego debe elegir From Catolog._
+
+<p align="center">
+<img width="471" alt="add" src="https://user-images.githubusercontent.com/60987042/83418062-97a2f200-a3e8-11ea-8d9d-300204c15e2f.PNG">
+</p>
+
+_8. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js._
+
 ---
-
-![333](https://user-images.githubusercontent.com/60987042/77705089-c33ed180-6f8c-11ea-987b-c2758d96dec9.png)
-
+<p align="center">
+<img width="467" alt="node" src="https://user-images.githubusercontent.com/60987042/83418103-a9849500-a3e8-11ea-8e26-d2d9b549d600.PNG">
+</p>
 ---
-_8. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
+_9. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
 
 <p align="center">
 <img width="668" alt="img7" src="https://user-images.githubusercontent.com/40369712/77024355-527c3180-695c-11ea-8f74-d58c9d5c8999.png">
@@ -204,21 +215,22 @@ _si desea desplegar desplegar un HelloWord de nodejs puede utilizar el siguiente
 https://github.com/openshift/nodejs-ex.git
 ```
 
-_9. Para ver el link de despliegue se debe dar clic en "Continue to the project overview"._
+_10. Para ver el link de despliegue se debe dar clic en "Continue to the project overview"._
 
-![555](https://user-images.githubusercontent.com/60987042/77705724-680dde80-6f8e-11ea-8736-2f7ba04e45c2.png)
-
+<p align="center">
+<img width="580" alt="nodej" src="https://user-images.githubusercontent.com/60987042/83418284-f7010200-a3e8-11ea-9c1c-86efc9b25aef.PNG">
+</p>
 ---
 
 **Nota:** Espere unos mintos mientras el proceso de construcción y despliegue de la aplicación se termina.
 
 ---
 
-_10. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
+_11. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
 
-
+<p align="center">
 ![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
-
+</p>
 
 ## Despliegue de una imagen Docker en un contenedor de Opeshift 📦
 
