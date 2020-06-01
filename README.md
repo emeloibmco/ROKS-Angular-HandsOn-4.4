@@ -179,7 +179,7 @@ _4. Dirigirse a la sección de clusters._
 
 ---
 <p align="center">
-<img width="473" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
+<img width="668" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
 </p>
 ---
 
@@ -194,14 +194,14 @@ _6. Ingrese a la sección de openshift web console._
 _7. Ingrese a la sección add y luego debe elegir From Catolog._
 
 <p align="center">
-<img width="471" alt="add" src="https://user-images.githubusercontent.com/60987042/83418062-97a2f200-a3e8-11ea-8d9d-300204c15e2f.PNG">
+<img width="668" alt="add" src="https://user-images.githubusercontent.com/60987042/83418062-97a2f200-a3e8-11ea-8d9d-300204c15e2f.PNG">
 </p>
 
 _8. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js._
 
 ---
 <p align="center">
-<img width="467" alt="node" src="https://user-images.githubusercontent.com/60987042/83418103-a9849500-a3e8-11ea-8e26-d2d9b549d600.PNG">
+<img width="668" alt="node" src="https://user-images.githubusercontent.com/60987042/83418103-a9849500-a3e8-11ea-8e26-d2d9b549d600.PNG">
 </p>
 ---
 _9. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
