@@ -171,7 +171,7 @@ _3. Dirijase al resource list._
 <p align="center">
 <img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
 </p>
----
+
 
 _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta:**1699257_......**_
 
@@ -181,7 +181,7 @@ _4. Dirigirse a la sección de clusters._
 <p align="center">
 <img width="668" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
 </p>
----
+
 
 _5. Ingresar al cluster que lleva por nombre openshift-4.3_
 
@@ -220,7 +220,7 @@ _10. Para ver el link de despliegue se debe dar clic en "Continue to the project
 <p align="center">
 <img width="580" alt="nodej" src="https://user-images.githubusercontent.com/60987042/83418284-f7010200-a3e8-11ea-9c1c-86efc9b25aef.PNG">
 </p>
----
+
 
 **Nota:** Espere unos mintos mientras el proceso de construcción y despliegue de la aplicación se termina.
 
