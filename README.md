@@ -282,10 +282,16 @@ _9. Al dar clic en Container Image se abre una ventana en la cual debemos selecc
 
 _10. Si reconoce la imagen docker, se debe habilitar la opción para dar clic en **Deploy**_, y al dar clic acá se inicia a desplegar la aplicación por lo que se debe esperar un momento minetras se realiza el despliegue.
 
-_11. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
+_11. Una vez terminado el proceso de despliegue puede dirigirse a Overview dando clic sobre el circulo de despliegue, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
+
+<p align="center">
+<img width="508" alt="we" src="https://user-images.githubusercontent.com/60987042/83420340-1e0d0300-a3ec-11ea-8d0f-c36e60ff15e7.PNG">
+</p>
+
+_12. al dar clic en la URL podra acceder a la aplicacion ya desplegada._
 
 
-![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
+<img width="948" alt="webs" src="https://user-images.githubusercontent.com/60987042/83420658-8eb41f80-a3ec-11ea-8c4e-16409e136c5a.PNG">
 
 
 ## Configurar el Auto escalamiento de Pods en un despliegue de Opeshift 🛠️
