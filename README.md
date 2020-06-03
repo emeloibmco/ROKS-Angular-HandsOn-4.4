@@ -17,7 +17,7 @@ _Inicialmente debe acceder al shell de IBM Cloud desde el siguiente link:_
 https://cloud.ibm.com/shell
 ```
 
-### Acceda el cluster de Open Shift (ROKS) desplegado en IBM Cloud 📦
+### Acceda al cluster de Open Shift (ROKS) desplegado en IBM Cloud 📦
 
 
 _1.	Inicie sesión e ingrese desde la CLI de OpenShift al clúster en el que se va a trabajar._
