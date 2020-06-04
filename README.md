@@ -6,11 +6,15 @@
 _Para el desarrollo de este proyecto se tiene como base el desarrollo de una aplicación basada en el lenguaje de programación angular y su posterior despliegue en un **Cluster de OpenShift** que se encuentra alojado en **IBM Cloud**._
 
 ### Indice
-1. [TL;DR](#tldr)
-2. [Arquitectura](#-arquitectura)
-3. [¿Cómo funciona?](#-cómo-funciona)
-4. [Manejando el JSON del API IBM Watson](#-manejando-el-JSON-del-API-IBM-Watson)
-5. [Referencias y documentación útil](#referencias-y-documentación-util)
+1. [Despliegue en OpenShift desde IBM Cloud shell](#Despliegue en OpenShift desde IBM Cloud shell: 🚀)
+2. [Despliegue Aplicación Hello World en Angular](#Despliegue Aplicación Hello World en Angular 📦)
+3. [Despliegue Aplicación Listas en Angular](#Despliegue Aplicación Listas en Angular 📦)
+4. [Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift ](#Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦)
+5. [Despliegue de una imagen Docker en un contenedor de Opeshift](#Despliegue de una imagen Docker en un contenedor de Opeshift 📦)
+6. [Despliegue Aplicación CRUD en Angular](#Despliegue Aplicación CRUD en Angular 📦)
+7. [Anexos](#ANEXOS)
+8. [Pre-requisitos](#Pre-requisitos 📋)
+9. [Pre-requisitos](#Pre-requisitos 📋)
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
@@ -121,7 +125,7 @@ _Y por último solo faltaría dar clic en el link que lo llevara a la aplicació
 
 _De esta forma se daría por terminado el despliegue de la aplicación angular en openshift._
 
-## Despliegue Aplicación Lista en Angular 📦
+## Despliegue Aplicación Listas en Angular 📦
 
 _9.	Clone el repositorio de la aplicación que se desea desplegar._
 
@@ -358,7 +362,7 @@ La siguiente es la URL de el despliegue de esta aplicación demo:
 http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
 
 
-# _ANEXOS._
+# ANEXOS
 
 _Si se desea realizar el mismo despliegue desde la cli, pero desde la maquina local se deberían seguir los siguientes pasos:_
 
