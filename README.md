@@ -294,7 +294,7 @@ _11. Una vez terminado el proceso de despliegue puede dirigirse a Overview dando
 
 _12. al dar clic en la URL podra acceder a la aplicacion ya desplegada._
 
-![image](https://user-images.githubusercontent.com/45157348/83713508-df469b00-a5ed-11ea-948a-89fde61ec27d.png)
+![image](https://user-images.githubusercontent.com/45157348/83714177-ae676580-a5ef-11ea-8477-841da501564a.png)
 
 ## Configurar el Auto escalamiento de Pods en un despliegue de Opeshift 🛠️
 
