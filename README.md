@@ -72,7 +72,7 @@ _3.	Acceda al proyecto que acabo de crear de la siguiente manera:_
 oc project <projectname>
 ```
 
-## Despliegue Aplicación Hello World en Angular 📦
+## Despliegue Aplicación Hello World en Angular 🅰️
 
 _4.	Clone el repositorio de la aplicación que se desea desplegar._
 
@@ -125,7 +125,9 @@ _Y por último solo faltaría dar clic en el link que lo llevara a la aplicació
 
 _De esta forma se daría por terminado el despliegue de la aplicación angular en openshift._
 
-## Despliegue Aplicación Listas en Angular 📦
+## Despliegue Aplicación Listas en Angular 🅰️ 
+
+ 
 
 _9.	Clone el repositorio de la aplicación que se desea desplegar._
 
@@ -158,7 +160,7 @@ _Y por último solo faltaría dar clic en el link que lo llevara a la aplicació
 <img width="681" alt="lis" src="https://user-images.githubusercontent.com/60987042/83415439-adaeb380-a3e4-11ea-8d5c-bf189f652fc1.PNG">
 </p>
 
-## Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦
+## Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦 
 
 _Para realizar el despliegue desde la consola web de OpenShif de una  manera mas intuitiva se deben seguir los siguientes pasos:_
 
