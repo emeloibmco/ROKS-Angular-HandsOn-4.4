@@ -275,12 +275,16 @@ _8. Dar clic en la sección **Add** y luego en la sección ***Container Image*._
 <img width="668" alt="contai" src="https://user-images.githubusercontent.com/60987042/83419932-7e4f7500-a3eb-11ea-8a3a-1a1e2a652adc.PNG">
 </p>
 
-_9. Al dar clic en Container Image se abre una ventana en la cual debemos seleccionar el campo **Image Name** y llenar el campo con la ruta fuente de la imagen docker, y dar enter._
+_9. Al dar clic en Container Image se abre una ventana en la cual debemos seleccionar el campo **Image Name** y llenar el campo con la ruta fuente de la imagen docker._
 
-![101010](https://user-images.githubusercontent.com/60987042/77706930-bbcdf700-6f91-11ea-8442-26569c617234.png)
+<img width="960" alt="librty1" src="https://user-images.githubusercontent.com/45157348/83713481-cd64f800-a5ed-11ea-87b0-420f6f37231f.PNG">
 
 
-_10. Si reconoce la imagen docker, se debe habilitar la opción para dar clic en **Deploy**_, y al dar clic acá se inicia a desplegar la aplicación por lo que se debe esperar un momento minetras se realiza el despliegue.
+_10. Si reconoce la imagen docker, automaticamente aparece la imagen docker y se llena la información necesaria para el despligue y se  habilita la opción para dar clic en **CREAR**_, y al dar clic acá se inicia el despliegue de la aplicación por lo que se debe esperar un momento mientras se realiza el mismo.
+
+<p align="center">
+<img width="501" alt="ibm-sphere" src="https://user-images.githubusercontent.com/45157348/83713491-d35ad900-a5ed-11ea-9f2e-b37163277a29.PNG">
+</p>
 
 _11. Una vez terminado el proceso de despliegue puede dirigirse a Overview dando clic sobre el circulo de despliegue, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
 
@@ -290,9 +294,7 @@ _11. Una vez terminado el proceso de despliegue puede dirigirse a Overview dando
 
 _12. al dar clic en la URL podra acceder a la aplicacion ya desplegada._
 
-
-<img width="948" alt="webs" src="https://user-images.githubusercontent.com/60987042/83420658-8eb41f80-a3ec-11ea-8c4e-16409e136c5a.PNG">
-
+![image](https://user-images.githubusercontent.com/45157348/83713508-df469b00-a5ed-11ea-948a-89fde61ec27d.png)
 
 ## Configurar el Auto escalamiento de Pods en un despliegue de Opeshift 🛠️
 
