@@ -5,8 +5,12 @@
 
 _Para el desarrollo de este proyecto se tiene como base el desarrollo de una aplicación basada en el lenguaje de programación angular y su posterior despliegue en un **Cluster de OpenShift** que se encuentra alojado en **IBM Cloud**._
 
-Indice
-
+### Indice
+1. [TL;DR](#tldr)
+2. [Arquitectura](#-arquitectura)
+3. [¿Cómo funciona?](#-cómo-funciona)
+4. [Manejando el JSON del API IBM Watson](#-manejando-el-JSON-del-API-IBM-Watson)
+5. [Referencias y documentación útil](#referencias-y-documentación-util)
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
