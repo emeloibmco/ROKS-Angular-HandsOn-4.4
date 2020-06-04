@@ -15,6 +15,7 @@ _Para el desarrollo de este proyecto se tiene como base el desarrollo de una apl
 7. [Anexos](#ANEXOS)
 8. [Pre-requisitos](#Pre-requisitos-)
 9. [Referencias](#Referencias)
+10. [Configurar el Auto escalamiento de Pods en un despliegue de Opeshift](#Configurar-el-Auto-escalamiento-de-Pods-en-un-despliegue-de-Opeshift 🛠️)
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
