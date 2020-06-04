@@ -6,15 +6,15 @@
 _Para el desarrollo de este proyecto se tiene como base el desarrollo de una aplicación basada en el lenguaje de programación angular y su posterior despliegue en un **Cluster de OpenShift** que se encuentra alojado en **IBM Cloud**._
 
 ### Indice
-1. [Despliegue en OpenShift desde IBM Cloud shell](#Despliegue en OpenShift desde IBM Cloud shell: 🚀)
-2. [Despliegue Aplicación Hello World en Angular](#Despliegue Aplicación Hello World en Angular 📦)
-3. [Despliegue Aplicación Listas en Angular](#Despliegue Aplicación Listas en Angular 📦)
-4. [Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift ](#Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦)
-5. [Despliegue de una imagen Docker en un contenedor de Opeshift](#Despliegue de una imagen Docker en un contenedor de Opeshift 📦)
-6. [Despliegue Aplicación CRUD en Angular](#Despliegue Aplicación CRUD en Angular 📦)
+1. [Despliegue en OpenShift desde IBM Cloud shell](#Despliegue-en-OpenShift-desde-IBM-Cloud-shell-)
+2. [Despliegue Aplicación Hello World en Angular](#Despliegue-Aplicación-Hello-World-en-Angular-)
+3. [Despliegue Aplicación Listas en Angular](#Despliegue-Aplicación-Listas-en-Angular-)
+4. [Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift ](#Despliegue-Aplicación-Hello-World-en-Nodejs-Desde-la-consola-web-de-OpenShift-)
+5. [Despliegue de una imagen Docker en un contenedor de Opeshift](#Despliegue-de-una-imagen-Docker-en-un-contenedor-de-Opeshift-)
+6. [Despliegue Aplicación CRUD en Angular](#Despliegue-Aplicación-CRUD-en-Angular-)
 7. [Anexos](#ANEXOS)
-8. [Pre-requisitos](#Pre-requisitos 📋)
-9. [Pre-requisitos](#Pre-requisitos 📋)
+8. [Pre-requisitos](#Pre-requisitos-)
+9. [Referencias](#Referencias)
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
