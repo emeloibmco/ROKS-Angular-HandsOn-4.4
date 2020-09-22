@@ -429,15 +429,16 @@ _3. Dirijase al resource list._
 _4. Dirigirse a la sección de clusters._
 
 <p align="center">
-<img width="668" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
+<img width="749" alt="ope-4" src="https://user-images.githubusercontent.com/60987042/93896282-5ba4dd00-fcb6-11ea-83de-dd6fabe43333.PNG">
 </p>
 
-_5. Ingresar al cluster que lleva por nombre openshift-4.3_
+
+_5. Ingresar al cluster que lleva por nombre **openshift-4.4.20**_
 
 _6. Ingrese a la sección de openshift web console._
 
 <p align="center">
-<img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
+<img width="960" alt="op" src="https://user-images.githubusercontent.com/60987042/93896373-76775180-fcb6-11ea-8974-059b54190f55.PNG">
 </p>
 
 _7. Dar clic en el menú desplegable de la parte superior izquierda y seleccionar **Administrator**._
