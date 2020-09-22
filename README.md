@@ -201,7 +201,7 @@ _6. Ingrese a la sección de openshift web console._
 <img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
 </p>
 
-_7. Cree un nuevo proyecto con la siguinete sintaxis **handson-nombreapellido**._
+_7. Cree un nuevo proyecto con la siguiente syntaxis **handson-nombreapellido**._
 
 <p align="center">
 <img width="749" alt="new-project" src="https://user-images.githubusercontent.com/60987042/93888733-0369dd00-fcae-11ea-9918-80bcfd8bb35c.PNG">
@@ -255,9 +255,51 @@ _13. Al dar clic en crear se iniciara un proceso de build el cual nos entregara 
 
 _14. Una vez terminado el proceso de despliegue puede dirigirse a Routes, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
 
+<p align="center">
+<img width="960" alt="hwl" src="https://user-images.githubusercontent.com/60987042/93890404-ecc48580-fcaf-11ea-8dfa-742a6aad9e92.PNG">
+</p>
 
-<img width="894" alt="nod" src="https://user-images.githubusercontent.com/60987042/83419230-5d3a5480-a3ea-11ea-86fd-7cdf9bf92fe4.PNG">
+### Monitoreo de la aplicación
 
+Para realizar un monitoreo de nuestra aplicación desplegada debemos seguir los siguientes pasos:
+
+_1. En la sección izquierda de nuestra panatalla debemos acceder al modo de **Administrador**._
+
+<p align="center">
+<img width="746" alt="admin" src="https://user-images.githubusercontent.com/60987042/93892976-bccab180-fcb2-11ea-8864-0cf86a18b380.PNG">
+</p>
+
+_2. En el menú lateral izquierdo, debemos dirigirnos a la sección de **Monitoring** y luego dar clic en **Dashboard**. ._
+
+<p align="center">
+<img width="746" alt="moni" src="https://user-images.githubusercontent.com/60987042/93893022-c81ddd00-fcb2-11ea-97bd-b9a532c350af.PNG">
+</p>
+
+_3. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuesro metodo de acceso al cual debemos dar clic en **Log in with Openshift**._
+
+<p align="center">
+<img width="960" alt="log in grafana" src="https://user-images.githubusercontent.com/60987042/93893051-d1a74500-fcb2-11ea-8982-24db221aec48.PNG">
+</p>
+
+_4. Al completar el paso anterior nos aparecera el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift._
+
+<p align="center">
+<img width="959" alt="grafa" src="https://user-images.githubusercontent.com/60987042/93893080-dbc94380-fcb2-11ea-9733-5e8a37e31d84.PNG">
+</p>
+
+_5. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y aca se nos mostrara un menu desplegable en el cual debemos seleccionar el siguienete:_
+
+<p align="center">
+<img width="752" alt="menu-grafa" src="https://user-images.githubusercontent.com/60987042/93893179-f69bb800-fcb2-11ea-8263-5f1e8fef79ea.PNG">
+</p>
+
+_6. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenia la syntaxis de **handson-nobreapellido**._
+
+<p align="center">
+<img width="960" alt="cpu" src="https://user-images.githubusercontent.com/60987042/93893355-2945b080-fcb3-11ea-99ca-fa8d27a58a97.PNG">
+</p>
+
+De esta manera podemos analizar el consumo que se a tenido en nuestra aplicación tanto en CPU como en Memoria.
 
 ## Despliegue de una imagen Docker en un contenedor de Opeshift 📦
 
