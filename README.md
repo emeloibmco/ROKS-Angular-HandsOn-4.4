@@ -12,9 +12,10 @@ _Para el desarrollo de este proyecto se tiene como base el desarrollo de una apl
 4. [Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift ](#Despliegue-Aplicación-Hello-World-en-Nodejs-Desde-la-consola-web-de-OpenShift-)
 5. [Despliegue de una imagen Docker en un contenedor de Opeshift](#Despliegue-de-una-imagen-Docker-en-un-contenedor-de-Opeshift-)
 6. [Despliegue Aplicación CRUD en Angular](#Despliegue-Aplicación-CRUD-en-Angular-)
-7. [Anexos](#ANEXOS)
-8. [Pre-requisitos](#Pre-requisitos-)
-9. [Referencias](#Referencias)
+7. [Instalación y despliegue de Eclipce Che con un operador](#Instalación-y-despliegue-de-Eclipce-Che-con-un-operador-)
+8. [Anexos](#ANEXOS)
+9. [Pre-requisitos](#Pre-requisitos-)
+10. [Referencias](#Referencias)
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
@@ -402,6 +403,108 @@ Como ejercicio adicional, se recomienda configurar ConfigMap para utlizar parame
 La siguiente es la URL de el despliegue de esta aplicación demo:
 http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
 
+
+## Instalación y despliegue de Eclipce Che con un operador 🚀
+
+**PASOS:**
+
+### Acceda al cluster de Open Shift (ROKS) desplegado en IBM Cloud 📦
+
+
+_1. Ingrese a IBM cloud desde el siguiente link:_
+```
+https://cloud.ibm.com/login
+```
+_2. Realice el login con sus credenciales de ingreso._
+
+---
+![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
+---
+
+_3. Dirijase al resource list._
+
+<img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+
+
+_4. Dirigirse a la sección de clusters._
+
+<p align="center">
+<img width="668" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
+</p>
+
+_5. Ingresar al cluster que lleva por nombre openshift-4.3_
+
+_6. Ingrese a la sección de openshift web console._
+
+<p align="center">
+<img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
+</p>
+
+_7. Dar clic en el menú desplegable de la parte superior izquierda y seleccionar **Administrator**._
+
+<p align="center">
+<img width="699" alt="administrator-oc" src="https://user-images.githubusercontent.com/60987042/89837634-fd210680-db2e-11ea-9674-1a6b96bba17b.PNG">
+</p>
+
+_8. Al dar clic en Administrator se abre una nueva interfaz en la cual debemos seleccionar el campo **Operators** y luego dar clic en **OperatorHub**._
+
+<p align="center">
+<img width="706" alt="OperatorHub" src="https://user-images.githubusercontent.com/60987042/89837669-1033d680-db2f-11ea-981f-d8c5ec89dd5f.PNG">
+</p>
+
+
+_9. Una vez estemos en OpratorHub debemos buscar mediante el **Filter by keyword...** el operador correspondiente a **Eclipse-che**.
+
+<p align="center">
+<img width="960" alt="Eclipse-che" src="https://user-images.githubusercontent.com/60987042/89837709-2477d380-db2f-11ea-975b-b2b30c2ec04a.PNG">
+</p>
+
+_10. Al dar clic sobre Eclipse-che se nos va desplegar una nueva ventana en la cual debemos instalar el operador sin modificar ningun campo._
+
+
+_11. Una vez instalado el operador, ingresamos y le damos clic en **Create CheCluster**._
+
+<p align="center">
+<img width="700" alt="create" src="https://user-images.githubusercontent.com/60987042/89837718-280b5a80-db2f-11ea-8201-867f97450fe3.PNG">
+</p>
+
+_12. Al dar clic en **Create CheCluster**, se nos va a mostrar un **.YAMl** el cual describe nuestro despliegue y en el, debemos cambiar las siguientes variables:_
+
+selfSignedCert: **true**
+
+openShiftoAuth: **false**
+
+_13. Al modificar las variables anteriores o al asegurarse de que estas tengan el valor dado en el paso anterior, prosedemos a dar clic en **Create**_
+
+<p align="center">
+<img width="702" alt="Create yaml" src="https://user-images.githubusercontent.com/60987042/89837728-2b9ee180-db2f-11ea-8437-c98727482f7f.PNG">
+</p>
+
+_14. Al Pasar unos 10 min, debemos dar clic en el menú desplegable de la parte superior izquierda y seleccionar **Developer**._
+
+<p align="center">
+<img width="702" alt="Developer-oc" src="https://user-images.githubusercontent.com/60987042/89837738-2fcaff00-db2f-11ea-9036-409932e55747.PNG">
+</p>
+
+_15. Al ingresar como developer vamos a ver todos los Pods que se generarón para el despliegue de Eclipse-che. Para acceder a la interfaz grafica de Eclipse debemos dar clic en **Open-URL**_
+
+<p align="center">
+<img width="702" alt="Open-URL" src="https://user-images.githubusercontent.com/60987042/89837745-335e8600-db2f-11ea-81e7-c423ec7ff40e.PNG">
+</p>
+
+_16. Al acceder a la url de eclipse-che vemos la pagina de login del mismo._
+
+<p align="center">
+<img width="702" alt="Che-login" src="https://user-images.githubusercontent.com/60987042/89838149-1d04fa00-db30-11ea-8c7c-cb12acce3312.png">
+</p>
+
+**Nota:** El usuario y el password se configuran en el .Yaml, pero en este caso se dejaron por default por ende se tiene que el User y el Password son admin
+
+_17. Al ingresar las credenciales de acceso vamos a ingresar a eclipse-che._
+
+<p align="center">
+<img width="656" alt="Che-home" src="https://user-images.githubusercontent.com/60987042/89838151-1f675400-db30-11ea-85a4-54b013cebc3b.png">
+</p>
 
 # ANEXOS
 
