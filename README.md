@@ -187,18 +187,17 @@ _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferen
 
 _4. Dirigirse a la sección de clusters._
 
----
 <p align="center">
-<img width="668" alt="clus" src="https://user-images.githubusercontent.com/60987042/83417688-13506f00-a3e8-11ea-8d06-69558164a8a0.PNG">
+<img width="749" alt="ope-4" src="https://user-images.githubusercontent.com/60987042/93896282-5ba4dd00-fcb6-11ea-83de-dd6fabe43333.PNG">
 </p>
 
 
-_5. Ingresar al cluster que lleva por nombre openshift-4.3_
+_5. Ingresar al cluster que lleva por nombre **openshift-4.4.20**_
 
 _6. Ingrese a la sección de openshift web console._
 
 <p align="center">
-<img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
+<img width="960" alt="op" src="https://user-images.githubusercontent.com/60987042/93896373-76775180-fcb6-11ea-8974-059b54190f55.PNG">
 </p>
 
 _7. Cree un nuevo proyecto con la siguiente syntaxis **handson-nombreapellido**._
@@ -269,31 +268,43 @@ _1. En la sección izquierda de nuestra panatalla debemos acceder al modo de **A
 <img width="746" alt="admin" src="https://user-images.githubusercontent.com/60987042/93892976-bccab180-fcb2-11ea-8864-0cf86a18b380.PNG">
 </p>
 
-_2. En el menú lateral izquierdo, debemos dirigirnos a la sección de **Monitoring** y luego dar clic en **Dashboard**. ._
+_2. En el menú lateral izquierdo, debemos dirigirnos a la sección de **Monitoring** y luego dar clic en **Dashboards**._
 
 <p align="center">
 <img width="746" alt="moni" src="https://user-images.githubusercontent.com/60987042/93893022-c81ddd00-fcb2-11ea-97bd-b9a532c350af.PNG">
 </p>
 
-_3. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuesro metodo de acceso al cual debemos dar clic en **Log in with Openshift**._
+_3. Ahora debemos dar clic donde dice **Grafana UI**._
+
+<p align="center">
+<img width="752" alt="grafana-ui" src="https://user-images.githubusercontent.com/60987042/93896636-c524eb80-fcb6-11ea-8986-d689e99eac8b.PNG">
+</p>
+
+_4. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuesro metodo de acceso al cual debemos dar clic en **Log in with Openshift**._
 
 <p align="center">
 <img width="960" alt="log in grafana" src="https://user-images.githubusercontent.com/60987042/93893051-d1a74500-fcb2-11ea-8982-24db221aec48.PNG">
 </p>
 
-_4. Al completar el paso anterior nos aparecera el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift._
+_5. En esta nueva ventana inicialmente nos aparecera un mensaje de autorización en cual debemos dar clic en **Allow Selected Permissions**._
+
+<p align="center">
+<img width="960" alt="acces" src="https://user-images.githubusercontent.com/60987042/93896923-1fbe4780-fcb7-11ea-9a69-dc23dd35f814.PNG">
+</p>
+
+_6. Al completar el paso anterior nos aparecera el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift._
 
 <p align="center">
 <img width="959" alt="grafa" src="https://user-images.githubusercontent.com/60987042/93893080-dbc94380-fcb2-11ea-9733-5e8a37e31d84.PNG">
 </p>
 
-_5. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y aca se nos mostrara un menu desplegable en el cual debemos seleccionar el siguienete:_
+_7. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y aca se nos mostrara un menu desplegable en el cual debemos seleccionar el siguienete:_
 
 <p align="center">
 <img width="752" alt="menu-grafa" src="https://user-images.githubusercontent.com/60987042/93893179-f69bb800-fcb2-11ea-8263-5f1e8fef79ea.PNG">
 </p>
 
-_6. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenia la syntaxis de **handson-nobreapellido**._
+_8. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenia la syntaxis de **handson-nobreapellido**._
 
 <p align="center">
 <img width="960" alt="cpu" src="https://user-images.githubusercontent.com/60987042/93893355-2945b080-fcb3-11ea-99ca-fa8d27a58a97.PNG">
