@@ -201,42 +201,59 @@ _6. Ingrese a la sección de openshift web console._
 <img width="949" alt="4 3" src="https://user-images.githubusercontent.com/60987042/83417830-40048680-a3e8-11ea-968b-2cda9035accf.PNG">
 </p>
 
-_7. Ingrese a la sección add y luego debe elegir From Catolog._
+_7. Cree un nuevo proyecto con la siguinete sintaxis **handson-nombreapellido**._
+
+<p align="center">
+<img width="749" alt="new-project" src="https://user-images.githubusercontent.com/60987042/93888733-0369dd00-fcae-11ea-9918-80bcfd8bb35c.PNG">
+</p>
+
+_8. Ingrese a la sección add y luego debe elegir From Catolog._
 
 <p align="center">
 <img width="668" alt="add" src="https://user-images.githubusercontent.com/60987042/83418062-97a2f200-a3e8-11ea-8d9d-300204c15e2f.PNG">
 </p>
 
-_8. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js._
+_9. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js._
 
----
 <p align="center">
 <img width="668" alt="node" src="https://user-images.githubusercontent.com/60987042/83418103-a9849500-a3e8-11ea-8e26-d2d9b549d600.PNG">
 </p>
 
-_9. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
+_10. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar._
 
 <p align="center">
-<img width="668" alt="img7" src="https://user-images.githubusercontent.com/40369712/77024355-527c3180-695c-11ea-8f74-d58c9d5c8999.png">
+<img width="960" alt="add-repo" src="https://user-images.githubusercontent.com/60987042/93888847-209eab80-fcae-11ea-8916-6ce5ffa4cfa2.PNG">
 </p>
 
 _si desea desplegar desplegar un HelloWord de nodejs puede utilizar el siguiente repositorio de github:_
 ```
-https://github.com/openshift/nodejs-ex.git
+https://github.com/Smith2008S/HelloWorld-NodeJs.git
 ```
-
-_10. Para ver el link de despliegue se debe dar clic en "Continue to the project overview"._
+_11. Al final de esta pagina encontrara una sección de opciones avanzadas en la cual encontrara un link de **Scaling**._
 
 <p align="center">
-<img width="580" alt="nodej" src="https://user-images.githubusercontent.com/60987042/83418284-f7010200-a3e8-11ea-9c1c-86efc9b25aef.PNG">
+<img width="747" alt="Scaling" src="https://user-images.githubusercontent.com/60987042/93889169-7ecb8e80-fcae-11ea-8c39-c30e2ac90465.PNG">
+</p>
+
+_12. La sección de **Scaling**, nos permitirá configurar el número de replicas si deseamos un auto escalamiento para nuestra aplicación._
+
+<p align="center">
+<img width="960" alt="replicas" src="https://user-images.githubusercontent.com/60987042/93889521-e71a7000-fcae-11ea-80ca-515528219c9e.PNG">
 </p>
 
 
-**Nota:** Espere unos mintos mientras el proceso de construcción y despliegue de la aplicación se termina.
+_13. Al dar clic en crear se iniciara un proceso de build el cual nos entregara el link de despliegue de nuestra aplicación"._
 
----
+<p align="center">
+<img width="959" alt="build" src="https://user-images.githubusercontent.com/60987042/93889687-2052e000-fcaf-11ea-8115-a33397862c1d.PNG">
+</p>
 
-_11. Una vez terminado el proceso de despliegue puede dirigirse a Routes, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
+
+**Nota:** Espere unos cuantos segunodos mientras el proceso de construcción y despliegue de la aplicación se termina.
+
+
+
+_14. Una vez terminado el proceso de despliegue puede dirigirse a Routes, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
 
 
 <img width="894" alt="nod" src="https://user-images.githubusercontent.com/60987042/83419230-5d3a5480-a3ea-11ea-86fd-7cdf9bf92fe4.PNG">
