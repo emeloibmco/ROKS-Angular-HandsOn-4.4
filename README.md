@@ -388,6 +388,7 @@ Para realizar un monitoreo de nuestra aplicación desplegada debemos seguir los 
 </p>
 
 De esta manera podemos analizar el consumo que se a tenido en nuestra aplicación tanto en CPU como en Memoria.
+
 <br />
 
 ## Despliegue de una imagen Docker en un contenedor de Opeshift 📦
