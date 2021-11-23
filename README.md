@@ -5,6 +5,8 @@
 
 Para el desarrollo de este proyecto se tiene como base el desarrollo de una aplicación basada en el lenguaje de programación angular y su posterior despliegue en un **Cluster de OpenShift** que se encuentra alojado en **IBM Cloud**.
 
+<br />
+
 ### Indice
 1. [Despliegue en OpenShift desde IBM Cloud shell](#Despliegue-en-OpenShift-desde-IBM-Cloud-shell-)
 2. [Despliegue Aplicación Hello World en Angular](#despliegue-aplicación-hello-world-en-angular-🅰️)
@@ -16,39 +18,42 @@ Para el desarrollo de este proyecto se tiene como base el desarrollo de una apli
 8. [Anexos](#ANEXOS)
 9. [Pre-requisitos](#Pre-requisitos-)
 10. [Referencias](#Referencias)
+<br />
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
 ### Haga 'login' a IBM Cloud desde la línea de comando
 
 Inicialmente debe acceder al shell de IBM Cloud desde el siguiente link:
+
 ```
 https://cloud.ibm.com/shell
 ```
+<br />
 
 ### Acceda al cluster de Open Shift (ROKS) desplegado en IBM Cloud 📦
 
+1.	Inicie sesión e ingrese desde la CLI de OpenShift al clúster en el que se va a trabajar. Para ingresar al clúster que tengamos aprovisionado en nuestra cuenta de IBM Cloud se deben realizar los siguientes pasos:
 
-1.	Inicie sesión e ingrese desde la CLI de OpenShift al clúster en el que se va a trabajar.
+    * Ingresar a la plataforma de IBM cloud con sus credenciales de inicio de sesión, lo puede hacer desde el siguiente link:
 
-Para ingresar al clúster que tengamos aprovisionado en nuestra cuenta de IBM Cloud se deben realizar los siguientes pasos:
+     ```
+     https://cloud.ibm.com/
+     ```
+     <br />
+     
+    * Diríjase al resource list. Primero debe dar clic en el navigation menu y luego donde dice Resource list, como se puede ver en la siguiente imagen:
 
-•	Ingresar a la plataforma de IBM cloud con sus credenciales de inicio de sesión, lo puede hacer desde el siguiente link:
+      <p align="center">
+      <img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+      </p>
+      <br />
 
-```
-https://cloud.ibm.com/
-```
+    * Diríjase a la sección de clústers y dar clic en el que se desea acceder.
+      <br />
 
-•	Diríjase al resource list.
-Primero debe dar clic en el navigation menu y luego donde dice Resource list, como se puede ver en la siguiente imagen:
-
-<p align="center">
-<img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
-</p>
-
-•	Diríjase a la sección de clústers y dar clic en el que se desea acceder.
-
-•	Se da clic en el botón OpenShift web console.
+    * Se da clic en el botón OpenShift web console.
+      <br />
 
 ### Haga 'login' en el cluster de Open Shift (ROKS) desde la linea de comando 📦
 
