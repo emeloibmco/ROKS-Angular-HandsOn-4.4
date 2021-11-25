@@ -579,9 +579,8 @@ http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-
 
 12. Al dar clic en **Create CheCluster**, se nos va a mostrar un **.YAMl** el cual describe nuestro despliegue y en el, debemos cambiar las siguientes variables:
 
-selfSignedCert: **true**
-
-openShiftoAuth: **false**
+    * ```selfSignedCert```: **true**
+    * ```openShiftoAuth```: **false**
 <br />
 
 13. Al modificar las variables anteriores o al asegurarse de que estas tengan el valor dado en el paso anterior, prosedemos a dar clic en **Create**
