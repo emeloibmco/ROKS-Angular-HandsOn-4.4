@@ -678,16 +678,11 @@ C:\Program Files\IBM\Cloud\bin
 
 ## Referencias
 
-La documentación en linea de IBM Cloud Red Hat OpenShift Managed, se encuentra en el siguiente enlace:
+* La documentación en linea de IBM Cloud Red Hat OpenShift Managed, se encuentra en el siguiente enlace: https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started
 
-https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started
-
-En la siguiente página se encuentra la información de administración y configuración de Open Shift 3.11.
-
-https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/
+* En la siguiente página se encuentra la información de administración y configuración de Open Shift 3.11: https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/
 <br />
 
 ## Autores ✒️
-
 Equipo *IBM Cloud Tech Sales Colombia*.
 
