@@ -337,7 +337,7 @@ Para realizar un monitoreo de la aplicación desplegada debe seguir los pasos qu
 </p>
 <br />
 
-2. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuesro metodo de acceso al cual debemos dar clic en **Log in with Openshift**.
+2. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuestro metodo de acceso al cual debemos dar clic en **Log in with Openshift**.
 
 <p align="center">
 <img width="960" alt="log in grafana" src="https://user-images.githubusercontent.com/60987042/93893051-d1a74500-fcb2-11ea-8982-24db221aec48.PNG">
