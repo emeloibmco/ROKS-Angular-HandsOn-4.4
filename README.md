@@ -1,7 +1,4 @@
-# ROKS-Angular-HandsOn-4.4
-
-
-# GUIA DE INSTALACIÓN Y DESPLIEGUE DE APP ANGULAR EN OPENSHIFT
+# ROKS Angular - HandsOn 4.4 ☁
 
 Para el desarrollo de este proyecto se tiene como base el desarrollo de una aplicación basada en el lenguaje de programación angular y su posterior despliegue en un **Cluster de OpenShift** que se encuentra alojado en **IBM Cloud**.
 
