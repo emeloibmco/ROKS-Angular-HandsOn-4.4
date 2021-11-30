@@ -500,6 +500,7 @@ Como ejercicio adicional, se recomienda configurar ConfigMap para utlizar parame
 
 La siguiente es la URL de el despliegue de esta aplicación demo:
 http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
+
 <br />
 
 ## Instalación y despliegue de Eclipce Che con un operador 🚀
