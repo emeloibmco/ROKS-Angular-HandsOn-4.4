@@ -64,6 +64,7 @@ Ahora en la parte superior derecha se da clic sobre el ID del correo con el que 
 <br />
 
 Y por último volvemos a la terminal que se estaba utilizando pegamos y damos enter.
+
 <br />
 
 ### Cree un nuevo proyecto en Open Shift para desplegar las aplicaciones 📦
@@ -72,6 +73,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    ```
    oc new-project <projectname>
    ```
+   
    **Nota:** Para el **projectname** coloque **openshift + las iniciales de su nombre y apellido.**
    <br />
    
@@ -79,8 +81,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
 
    ```
    oc project <projectname>
-   ```
-   
+   ```   
    <br />
 
 ## Despliegue Aplicación Hello World en Angular 🅰️
@@ -124,17 +125,17 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
 
 5.	Para poder acceder al la URL de la aplicación y realizar la verificación de la misma debemos:
 
-   • Acceder a IBM cloud.
+   * Acceder a IBM cloud.
 
-   • Dirigirse al resource list.
+   * Dirigirse al resource list.
 
-   • Dirigirse a la sección de clusters.
+   * Dirigirse a la sección de clusters.
 
-   • Ingresar al cluster que lleva por nombre openshift-4.2
+   * Ingresar al cluster que lleva por nombre openshift-4.2
 
-   • Ingrese a la sección de openshift web console.
+   * Ingrese a la sección de openshift web console.
 
-   • Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego.
+   * Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego.
    
    <br />
 
