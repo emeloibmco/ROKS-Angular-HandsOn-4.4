@@ -328,58 +328,44 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
 
 ### Monitoreo de la aplicación
 
-Para realizar un monitoreo de nuestra aplicación desplegada debemos seguir los siguientes pasos:
+Para realizar un monitoreo de la aplicación desplegada debe seguir los pasos que se indican a continuación:
 
-1. En la sección izquierda de nuestra panatalla debemos acceder al modo de **Administrador**.
+1. De click en la pestaña del proyecto (parte superior) y allí busque y seleccione el proyecto ```openshift-monitoring```. Este namespace está creado por defecto y contiene herramientas como Prometheus y Grafana que permiten monitorear el clúster. Observe los componentes que aparecen y de click en la opción ```Open URL``` que aparece para Grafana.
 
 <p align="center">
-<img width="746" alt="admin" src="https://user-images.githubusercontent.com/60987042/93892976-bccab180-fcb2-11ea-8864-0cf86a18b380.PNG">
+<img src="https://github.com/emeloibmco/ROKS-Angular-HandsOn-4.4/blob/master/Grafana_acceso.gif">
 </p>
 <br />
 
-2. En el menú lateral izquierdo, debemos dirigirnos a la sección de **Monitoring** y luego dar clic en **Dashboards**.
-
-<p align="center">
-<img width="746" alt="moni" src="https://user-images.githubusercontent.com/60987042/93893022-c81ddd00-fcb2-11ea-97bd-b9a532c350af.PNG">
-</p>
-<br />
-
-3. Ahora debemos dar clic donde dice **Grafana UI**.
-
-<p align="center">
-<img width="752" alt="grafana-ui" src="https://user-images.githubusercontent.com/60987042/93896636-c524eb80-fcb6-11ea-8986-d689e99eac8b.PNG">
-</p>
-<br />
-
-4. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuesro metodo de acceso al cual debemos dar clic en **Log in with Openshift**.
+2. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuesro metodo de acceso al cual debemos dar clic en **Log in with Openshift**.
 
 <p align="center">
 <img width="960" alt="log in grafana" src="https://user-images.githubusercontent.com/60987042/93893051-d1a74500-fcb2-11ea-8982-24db221aec48.PNG">
 </p>
 <br />
 
-5. En esta nueva ventana inicialmente nos aparecera un mensaje de autorización en cual debemos dar clic en **Allow Selected Permissions**.
+3. En esta nueva ventana inicialmente nos aparecera un mensaje de autorización en cual debemos dar clic en **Allow Selected Permissions**.
 
 <p align="center">
 <img width="960" alt="acces" src="https://user-images.githubusercontent.com/60987042/93896923-1fbe4780-fcb7-11ea-9a69-dc23dd35f814.PNG">
 </p>
 <br />
 
-6. Al completar el paso anterior nos aparecera el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift.
+4. Al completar el paso anterior nos aparecera el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift.
 
 <p align="center">
 <img width="959" alt="grafa" src="https://user-images.githubusercontent.com/60987042/93893080-dbc94380-fcb2-11ea-9733-5e8a37e31d84.PNG">
 </p>
 <br />
 
-7. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y aca se nos mostrara un menu desplegable en el cual debemos seleccionar el siguienete:
+5. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y aca se nos mostrara un menu desplegable en el cual debemos seleccionar el siguienete:
 
 <p align="center">
 <img width="752" alt="menu-grafa" src="https://user-images.githubusercontent.com/60987042/93893179-f69bb800-fcb2-11ea-8263-5f1e8fef79ea.PNG">
 </p>
 <br />
 
-8. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenia la syntaxis de **handson-nobreapellido**.
+6. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenia la syntaxis de **handson-nobreapellido**.
 
 <p align="center">
 <img width="960" alt="cpu" src="https://user-images.githubusercontent.com/60987042/93893355-2945b080-fcb3-11ea-99ca-fa8d27a58a97.PNG">
