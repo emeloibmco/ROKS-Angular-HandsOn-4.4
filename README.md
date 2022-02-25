@@ -63,7 +63,7 @@ Ahora en la parte superior derecha se da clic sobre el ID del correo con el que 
 </p>
 <br />
 
-Y por último volvemos a la terminal que se estaba utilizando pegamos y damos enter.
+Y por último volvemos a la terminal que se estaba utilizando, pegamos y damos enter.
 
 <br />
 
@@ -74,10 +74,10 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    oc new-project <projectname>
    ```
    
-   **Nota:** Para el **projectname** coloque **openshift + las iniciales de su nombre y apellido.**
+   **Nota:** Para el **projectname** coloque **roks + las iniciales de su nombre y apellido.**
    <br />
    
-2.	Acceda al proyecto que acabo de crear de la siguiente manera:
+2.	Acceda al proyecto que acabó de crear de la siguiente manera:
 
    ```
    oc project <projectname>
@@ -87,7 +87,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
 ## Despliegue Aplicación Hello World en Angular 🅰️
 1.	Clone el repositorio de la aplicación que se desea desplegar.
 
-   **App de hello Word en angular:** https://github.com/emeloibmco/AngularHelloWorld
+   **App de hello World en angular:** https://github.com/emeloibmco/AngularHelloWorld
    
    <br />
 
@@ -99,7 +99,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    
    <br />
    
-3.	Dirigirse desde a esta carpeta con el comando:
+3.	Dirigirse a esta carpeta con el comando:
 
    ```
    cd AngularHelloWorld
@@ -114,7 +114,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    ```
    <br />
    
-   El resultado de este comando va a ser una respuesta de este tipo, que nos indica que la aplicación se desplego correctamente.
+   El resultado de este comando va a ser una respuesta de este tipo, que nos indica que la aplicación se desplegó correctamente.
    <br />
    
    <p align="center">
@@ -135,7 +135,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
 
       * Ingrese a la sección de openshift web console.
 
-      * Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego.
+      * Buscar el proyecto que creó con sus iniciales y buscar la aplicación que se desplegó.
 
       <br />
 
@@ -143,7 +143,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    
    <br />
 
-   Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada.
+   Y por último solo faltaría dar clic en el link que lo llevará a la aplicación desplegada.
 
    <br />
    
@@ -191,7 +191,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    <img width="515" alt="listas" src="https://user-images.githubusercontent.com/60987042/83415347-91ab1200-a3e4-11ea-9df1-90a6ef1e608a.PNG">
     </p>
 
-   Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada.
+   Y por último solo faltaría dar clic en el link que lo llevará a la aplicación desplegada.
 
    <p align="center">
    <img width="681" alt="lis" src="https://user-images.githubusercontent.com/60987042/83415439-adaeb380-a3e4-11ea-8d5c-bf189f652fc1.PNG">
@@ -201,7 +201,7 @@ Y por último volvemos a la terminal que se estaba utilizando pegamos y damos en
    
 ## Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦 
 
-Para realizar el despliegue desde la consola web de OpenShif de una  manera mas intuitiva se deben seguir los siguientes pasos:
+Para realizar el despliegue desde la consola web de OpenShift de una  manera más intuitiva se deben seguir los siguientes pasos:
 
 1. Ingrese a IBM cloud desde el siguiente link:
 
@@ -220,7 +220,7 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
    
    <br />
 
-3. Dirijase al resource list.
+3. Diríjase al resource list.
 
    ---
    <p align="center">
@@ -228,7 +228,7 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
    </p>
 
 
-   **NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta:**1699257_......**
+   **NOTA:** En la parte superior derecha al lado de "Manage", aparecen las diferentes cuentas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta:**1699257_......**
    
    <br />
 
@@ -259,7 +259,7 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
 
 <br />
 
-8. Ingrese a la sección add y luego debe elegir From Catolog.
+8. Ingrese a la sección add y luego debe elegir From Catalog.
 
 <p align="center">
 <img width="668" alt="add" src="https://user-images.githubusercontent.com/60987042/83418062-97a2f200-a3e8-11ea-8d9d-300204c15e2f.PNG">
@@ -267,7 +267,7 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
 
 <br />
 
-9. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js.
+9. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opción Node.js.
 
 <p align="center">
 <img width="668" alt="node" src="https://user-images.githubusercontent.com/60987042/83418103-a9849500-a3e8-11ea-8e26-d2d9b549d600.PNG">
@@ -283,7 +283,7 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
 
 <br />
 
-   Si desea desplegar desplegar un HelloWord de nodejs puede utilizar el siguiente repositorio de github:
+   Si desea desplegar un HelloWorld de nodejs puede utilizar el siguiente repositorio de github:
    ```
    https://github.com/Smith2008S/HelloWorld-NodeJs.git
    ```
@@ -291,7 +291,7 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
    <br />
    
    
-11. Al final de esta pagina encontrara una sección de opciones avanzadas en la cual encontrara un link de **Scaling**.
+11. Al final de esta página encontrará una sección de opciones avanzadas en la cual encontrará un link de **Scaling**.
 
 <p align="center">
 <img width="747" alt="Scaling" src="https://user-images.githubusercontent.com/60987042/93889169-7ecb8e80-fcae-11ea-8c39-c30e2ac90465.PNG">
@@ -307,18 +307,18 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
 
 <br />
 
-13. Al dar clic en crear se iniciara un proceso de build el cual nos entregara el link de despliegue de nuestra aplicación".
+13. Al dar clic en crear se iniciará un proceso de build el cual nos entregará el link de despliegue de nuestra aplicación".
 
 <p align="center">
 <img width="959" alt="build" src="https://user-images.githubusercontent.com/60987042/93889687-2052e000-fcaf-11ea-8115-a33397862c1d.PNG">
 </p>
 
 
-**Nota:** Espere unos cuantos segunodos mientras el proceso de construcción y despliegue de la aplicación se termina.
+**Nota:** Espere unos cuantos segundos mientras el proceso de construcción y despliegue de la aplicación se termina.
 
 <br />
 
-14. Una vez terminado el proceso de despliegue puede dirigirse a Routes, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada.
+14. Una vez terminado el proceso de despliegue puede dirigirse a Routes, donde podrá ver la URL mediante la cual podrá acceder a la aplicación ya desplegada.
 
 <p align="center">
 <img width="960" alt="hwl" src="https://user-images.githubusercontent.com/60987042/93890404-ecc48580-fcaf-11ea-8dfa-742a6aad9e92.PNG">
@@ -330,54 +330,54 @@ Para realizar el despliegue desde la consola web de OpenShif de una  manera mas 
 
 Para realizar un monitoreo de la aplicación desplegada debe seguir los pasos que se indican a continuación:
 
-1. De click en la pestaña del proyecto (parte superior) y allí busque y seleccione el proyecto ```openshift-monitoring```. Este namespace está creado por defecto y contiene herramientas como Prometheus y Grafana que permiten monitorear el clúster. Observe los componentes que aparecen y de click en la opción ```Open URL``` que aparece para Grafana.
+1. Dé click en la pestaña del proyecto (parte superior) y allí busque y seleccione el proyecto ```openshift-monitoring```. Este namespace está creado por defecto y contiene herramientas como Prometheus y Grafana que permiten monitorear el clúster. Observe los componentes que aparecen y dé click en la opción ```Open URL``` que aparece para Grafana.
 
 <p align="center">
 <img src="https://github.com/emeloibmco/ROKS-Angular-HandsOn-4.4/blob/master/Grafana_acceso.gif">
 </p>
 <br />
 
-2. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuestro metodo de acceso al cual debemos dar clic en **Log in with Openshift**.
+2. Esta acción nos va a redirigir a una nueva ventana de nuestro navegador en la cual debemos seleccionar nuestro método de acceso al cual debemos dar clic en **Log in with Openshift**.
 
 <p align="center">
 <img width="960" alt="log in grafana" src="https://user-images.githubusercontent.com/60987042/93893051-d1a74500-fcb2-11ea-8982-24db221aec48.PNG">
 </p>
 <br />
 
-3. En esta nueva ventana inicialmente nos aparecera un mensaje de autorización en cual debemos dar clic en **Allow Selected Permissions**.
+3. En esta nueva ventana inicialmente nos aparecerá un mensaje de autorización en cual debemos dar clic en **Allow Selected Permissions**.
 
 <p align="center">
 <img width="960" alt="acces" src="https://user-images.githubusercontent.com/60987042/93896923-1fbe4780-fcb7-11ea-9a69-dc23dd35f814.PNG">
 </p>
 <br />
 
-4. Al completar el paso anterior nos aparecera el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift.
+4. Al completar el paso anterior nos aparecerá el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift.
 
 <p align="center">
 <img width="959" alt="grafa" src="https://user-images.githubusercontent.com/60987042/93893080-dbc94380-fcb2-11ea-9733-5e8a37e31d84.PNG">
 </p>
 <br />
 
-5. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y aca se nos mostrara un menu desplegable en el cual debemos seleccionar el siguienete:
+5. Para poder monitorear nuestra aplicacion debemos dar clic en **Home** y acá se nos mostrará un menú desplegable en el cual debemos seleccionar lo siguienete:
 
 <p align="center">
 <img width="752" alt="menu-grafa" src="https://user-images.githubusercontent.com/60987042/93893179-f69bb800-fcb2-11ea-8263-5f1e8fef79ea.PNG">
 </p>
 <br />
 
-6. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenia la syntaxis de **handson-nobreapellido**.
+6. El paso final es en el apartado de **namespace**, buscar nuestro proyecto el cual tenía la syntaxis de **handson-nombreapellido**.
 
 <p align="center">
 <img width="960" alt="cpu" src="https://user-images.githubusercontent.com/60987042/93893355-2945b080-fcb3-11ea-99ca-fa8d27a58a97.PNG">
 </p>
 
-De esta manera podemos analizar el consumo que se a tenido en nuestra aplicación tanto en CPU como en Memoria.
+De esta manera podemos analizar el consumo que se ha tenido en nuestra aplicación tanto en CPU como en Memoria.
 
 <br />
 
 ## Despliegue de una imagen Docker en un contenedor de Opeshift 📦
 
-Para realizar el despliegue de una aplicación que se encuentra alojada en un una imagen de DockerHub se deben realizar los siguintes pasos:
+Para realizar el despliegue de una aplicación que se encuentra alojada en un una imagen de DockerHub se deben realizar los siguientes pasos:
 
 
 1. Ingrese a IBM cloud desde el siguiente link:
@@ -400,7 +400,7 @@ Para realizar el despliegue de una aplicación que se encuentra alojada en un un
 <img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
 ---
 
-**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. 
+**NOTA:** En la parte superior derecha al lado de "Manage", aparecen las diferentes cuantas que tiene disponibles para trabajar. 
 
 <br />
 
@@ -437,7 +437,7 @@ Para realizar el despliegue de una aplicación que se encuentra alojada en un un
 <img width="960" alt="librty1" src="https://user-images.githubusercontent.com/45157348/83713481-cd64f800-a5ed-11ea-87b0-420f6f37231f.PNG">
 <br />
 
-9. Si reconoce la imagen docker, automaticamente aparece la imagen docker y se llena la información necesaria para el despligue y se  habilita la opción para dar clic en **CREAR**, y al dar clic acá se inicia el despliegue de la aplicación por lo que se debe esperar un momento mientras se realiza el mismo.
+9. Si reconoce la imagen docker, automaticamente aparece la imagen docker y se llena la información necesaria para el despliegue y se  habilita la opción para dar clic en **CREAR**, y al dar clic acá se inicia el despliegue de la aplicación por lo que se debe esperar un momento mientras se realiza el mismo.
 
 <p align="center">
 <img width="501" alt="ibm-sphere" src="https://user-images.githubusercontent.com/45157348/83713491-d35ad900-a5ed-11ea-9f2e-b37163277a29.PNG">
@@ -459,7 +459,7 @@ Para realizar el despliegue de una aplicación que se encuentra alojada en un un
 
 ## Despliegue Aplicación CRUD en Angular 📦
 
-Como ejercicio OPCIONAL se puede realizar el despligue de una aplicación en una arquitectura multi-capa.  Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.   
+Como ejercicio OPCIONAL se puede realizar el despliegue de una aplicación en una arquitectura multi-capa.  Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.   
 <br />
 
 La aplicación esta compuesta por 3 contenedores: 
