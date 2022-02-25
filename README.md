@@ -555,53 +555,37 @@ http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-
 10. Al dar clic sobre Eclipse-che se nos va desplegar una nueva ventana en la cual debemos instalar el operador sin modificar ningun campo.
 <br />
 
-11. Una vez instalado el operador, ingresamos y le damos clic en **Create CheCluster**.
+11. Una vez instalado el operador, navegamos en el panel izquierdo al seccion **Installed operators**.Luego damos click en Eclipse Che y nos ubicamos en la pestaña de detalles,en esta pestaña hacemos click en **create instance** en la seccion **Provided APIs**.
 
 <p align="center">
-<img width="700" alt="create" src="https://user-images.githubusercontent.com/60987042/89837718-280b5a80-db2f-11ea-8201-867f97450fe3.PNG">
+<img width="960" alt="Create instance for Che" src="https://user-images.githubusercontent.com/53380760/155764218-cde02fe7-7a25-4927-9c55-862d748f6318.png">
 </p>
 <br />
 
-12. Al dar clic en **Create CheCluster**, se nos va a mostrar un **.YAMl** el cual describe nuestro despliegue y en el, debemos cambiar las siguientes variables:
-
-    * ```selfSignedCert```: **true**
-    * ```openShiftoAuth```: **false**
-<br />
-
-13. Al modificar las variables anteriores o al asegurarse de que estas tengan el valor dado en el paso anterior, prosedemos a dar clic en **Create**
+12. Al dar clic en **Create CheCluster**, se nos va a mostrar un **.YAMl** el cual describe nuestro despliegue, no modificamos ninguna variable y damos click en **Create**.
 
 <p align="center">
-<img width="702" alt="Create yaml" src="https://user-images.githubusercontent.com/60987042/89837728-2b9ee180-db2f-11ea-8437-c98727482f7f.PNG">
+<img width="576" alt="create che cluster" src="https://user-images.githubusercontent.com/53380760/155764739-becbc948-09fd-4a77-b03a-150952f7d403.png">
 </p>
 <br />
 
-14. Al Pasar unos 10 min, debemos dar clic en el menú desplegable de la parte superior izquierda y seleccionar **Developer**.
+13. Al Pasar unos 10 min, debemos dar clic en el menú desplegable de la parte superior izquierda y seleccionar **Developer**.
 
 <p align="center">
 <img width="702" alt="Developer-oc" src="https://user-images.githubusercontent.com/60987042/89837738-2fcaff00-db2f-11ea-9036-409932e55747.PNG">
 </p>
 <br />
 
-15. Al ingresar como developer vamos a ver todos los Pods que se generarón para el despliegue de Eclipse-che. Para acceder a la interfaz grafica de Eclipse debemos dar clic en **Open-URL**
+14. Al ingresar como developer vamos a ver todos los Pods que se generarón para el despliegue de Eclipse-che. Para acceder a la interfaz grafica de Eclipse debemos dar clic en **Open-URL**
 
 <p align="center">
-<img width="702" alt="Open-URL" src="https://user-images.githubusercontent.com/60987042/89837745-335e8600-db2f-11ea-81e7-c423ec7ff40e.PNG">
+<img width="960" alt="pods deploy eclipse che" src="https://user-images.githubusercontent.com/53380760/155766574-c46d435f-f7ef-4385-9443-b157ef4428ca.png">
 </p>
 <br />
-
-16. Al acceder a la url de eclipse-che vemos la pagina de login del mismo.
-
-<p align="center">
-<img width="702" alt="Che-login" src="https://user-images.githubusercontent.com/60987042/89838149-1d04fa00-db30-11ea-8c7c-cb12acce3312.png">
-</p>
-
-**Nota:** El usuario y el password se configuran en el .Yaml, pero en este caso se dejaron por default por ende se tiene que el User y el Password son admin
-<br />
-
-17. Al ingresar las credenciales de acceso vamos a ingresar a eclipse-che.
+15. Al acceder al URL vamos a ingresar a Eclipse-Che.
 
 <p align="center">
-<img width="656" alt="Che-home" src="https://user-images.githubusercontent.com/60987042/89838151-1f675400-db30-11ea-85a4-54b013cebc3b.png">
+<img width="960" alt="Eclipse che" src="https://user-images.githubusercontent.com/53380760/155767134-bf8e78e4-7394-4bb9-bc9d-61ba7678b856.png">
 </p>
 <br />
 
