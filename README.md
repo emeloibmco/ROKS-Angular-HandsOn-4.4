@@ -11,7 +11,7 @@ Para el desarrollo de este proyecto se tiene como base el desarrollo de una apli
 4. [Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift ](#Despliegue-Aplicación-Hello-World-en-Nodejs-Desde-la-consola-web-de-OpenShift-)
 5. [Despliegue de una imagen Docker en un contenedor de Opeshift](#Despliegue-de-una-imagen-Docker-en-un-contenedor-de-Opeshift-)
 6. [Despliegue Aplicación CRUD en Angular](#Despliegue-Aplicación-CRUD-en-Angular-)
-7. [Instalación y despliegue de Eclipse Che con un operador](#instalación-y-despliegue-de-eclipse-che-con-un-operador-🚀)
+7. [Instalación y despliegue de Eclipse Che con un operador](#instalación-y-despliegue-de-eclipse-che-con-un-operador-)
 8. [Anexos](#ANEXOS)
 9. [Pre-requisitos](#Pre-requisitos-)
 10. [Referencias](#Referencias)
