@@ -164,7 +164,7 @@ Y por último volvemos a la terminal que se estaba utilizando, pegamos y damos e
    Desde el Shell de IBM cloud digitar el comando:
 
    ```
-   Git clone <url_repositorio>
+   git clone <url_repositorio>
    ```
    
    <br />
