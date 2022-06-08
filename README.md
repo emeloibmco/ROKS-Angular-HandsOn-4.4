@@ -351,7 +351,7 @@ Para realizar un monitoreo de la aplicación desplegada debe seguir los pasos qu
 </p>
 <br />
 
-4. Al completar el paso anterior nos aparecerá el Dashboard inicial de Grafana, la cual es la herramineta de monitoreo que viene integrada con openshift.
+4. Al completar el paso anterior nos aparecerá el Dashboard inicial de Grafana, la cual es la herramienta de monitoreo que viene integrada con openshift.
 
 <p align="center">
 <img width="959" alt="grafa" src="https://user-images.githubusercontent.com/60987042/93893080-dbc94380-fcb2-11ea-9733-5e8a37e31d84.PNG">
