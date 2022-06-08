@@ -330,7 +330,7 @@ Para realizar el despliegue desde la consola web de OpenShift de una  manera má
 
 Para realizar un monitoreo de la aplicación desplegada debe seguir los pasos que se indican a continuación:
 
-1. Dé click en la pestaña del proyecto (parte superior) y allí busque y seleccione el proyecto ```openshift-monitoring```. Este namespace está creado por defecto y contiene herramientas como Prometheus y Grafana que permiten monitorear el clúster. Observe los componentes que aparecen y dé click en la opción ```Open URL``` que aparece para Grafana.
+1. Dé click en la pestaña del proyecto (parte superior) y allí busque y seleccione el proyecto ```openshift-monitoring```. Este namespace está creado por defecto y contiene herramientas como Prometheus y Grafana que permiten monitorear el clúster. Asegúrese de que esté activa la opción ```Show default Projects``` para poder ver el proyecto. Observe los componentes que aparecen y dé click en la opción ```Open URL``` que aparece para Grafana.
 
 <p align="center">
 <img src="https://github.com/emeloibmco/ROKS-Angular-HandsOn-4.4/blob/master/Grafana_acceso.gif">
